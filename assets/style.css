@@ -451,8 +451,7 @@ footer {
 }
 
 /* -------------------------------- MEDIA QUERY -------------------------------- */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 450px) {
   :root {
     --h3-titles: 700 1.7rem "B612", sans-serif;
     --h3-margin: 2rem 0;

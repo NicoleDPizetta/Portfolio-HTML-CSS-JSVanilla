@@ -15,8 +15,8 @@ BR: Está é a primeira versão do portfólio, ainda não completamente otimizad
 
 **Melhorias planejadas:**
 
-- Versão de layout para Mobile;
-- Torná-lo responsivo em mais dispostivos;
+- Versão de layout para Mobile; _(trabalho em andamento)_
+- Torná-lo responsivo em mais dispostivos; _(trabalho em andamento)_
 - Adicionar um formulário de Contato na própria página, sem dependender do Google Forms como link externo.
 
 **Melhorias ainda a serem decididas se serão implementadas ou não:**
@@ -45,8 +45,8 @@ EN: This is the first version, not completly otimized as I want and temporarily 
 
 #### Mobile
 
-EM BREVE / SOON
-![]() ![]()
+trabalho em andamento / work in progress
+![](./assets/projects/screenshot-mobile1.png) ![]()
 
 ## 🌸 Tecnologias | Technologies
 
