@@ -29,8 +29,8 @@ EN: This is the first version, not completly otimized as I want and temporarily 
 
 **Planned improvements:**
 
-- Mobile layout version;
-- Make responsive to more devices;
+- Mobile layout version; _(work in progress)_
+- Make responsive to more devices; _(work in progress)_
 - Add a Contact form to the page, without depending on Google Forms external link.
 
 **Improvements still to be decided whether to implement or not:**
@@ -41,7 +41,6 @@ EN: This is the first version, not completly otimized as I want and temporarily 
 
 #### Desktop
 
-EM BREVE / SOON
 ![](./assets/projects/Screenshot.png)
 
 #### Mobile
