@@ -7,7 +7,7 @@ EN: My professional presentation personal web page.</p>
 
 ## 🌸 Preview site
 
-- [EM BREVE / SOON](https://nicoledpizetta.github.io/NicoleDPizetta-Portfolio)
+- [Preview](https://nicoledpizetta.github.io/Portfolio-NicoleDPizetta)
 
 ## 🌸 Futuras atualizações | Future improvements
 
@@ -42,9 +42,7 @@ EN: This is the first version, not completly otimized as I want and temporarily 
 #### Desktop
 
 EM BREVE / SOON
-![]()
-
-![]()
+![](./assets/projects/Screenshot.png)
 
 #### Mobile
 
