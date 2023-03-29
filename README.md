@@ -1,53 +1,80 @@
-<h1 align="center"> Portfólio de Nicole Dalzotto Pizetta </h1>
+<h1 align="center"> Portfolio de Nicole Dalzotto Pizetta </h1>
 
 <p align="center">
-Minha página web pessoal de apresentação profissional. <br/>
-</p>
+BR: Minha página web pessoal de apresentação profissional. <br/>
+EN: My professional presentation personal web page.</p>
 <br>
 
 ## 🌸 Preview site
 
-- [EM BREVE]()
+- [EM BREVE / SOON](https://nicoledpizetta.github.io/NicoleDPizetta-Portfolio)
 
-## 🌸 Futuras atualizações
+## 🌸 Futuras atualizações | Future improvements
 
-Pretendo fazer o layout para mobile e torná-lo responsivo em mais dispostivos. Por hora está apenas com o layout para Desktop.
+BR: Está é a primeira versão do portfólio, ainda não completamente otimizada como desejo e temporariamente apenas com o layout para Desktop.
+
+**Melhorias planejadas:**
+
+- Versão de layout para Mobile;
+- Torná-lo responsivo em mais dispostivos;
+- Adicionar um formulário de Contato na própria página, sem dependender do Google Forms como link externo.
+
+**Melhorias ainda a serem decididas se serão implementadas ou não:**
+
+- Talvez adicionar um toggle para a versão em inglês.
+  <br>
+  <br>
+
+EN: This is the first version, not completly otimized as I want and temporarily with only Desktop layout.
+
+**Planned improvements:**
+
+- Mobile layout version;
+- Make responsive to more devices;
+- Add a Contact form to the page, without depending on Google Forms external link.
+
+**Improvements still to be decided whether to implement or not:**
+
+- Maybe add a toggle for the english version.
 
 ## 🌸 Screenshots
 
 #### Desktop
 
-EM BREVE
+EM BREVE / SOON
 ![]()
 
 ![]()
 
 #### Mobile
 
-EM BREVE
+EM BREVE / SOON
 ![]() ![]()
 
-## 🌸 Tecnologias
+## 🌸 Tecnologias | Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+BR: Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+EN: This project was developed with the following technologies:
 
 - HTML5
-- HTML semântico
+- Semantic HTML5 markup
 - CSS3
 - CSS custom properties
 - CSS animations
 - CSS Flexbox
 - CSS Grid
 - Git e Github
-- Versionamento Github
 - Figma
 
-## :memo: Licença
+## :memo: Licença | License
 
-Proibida a utilização e/ou reprodução dos arquivos para fins diferentes de aprendizado.
+BR: Proibida a utilização e/ou reprodução dos arquivos para fins diferentes de aprendizado.
+
+EN: Proibida a utilização e/ou reprodução dos arquivos para fins diferentes de aprendizado.
 
 ---
 
-<p align="center"> Feito com ♥ por <a href="https://github.com/NicoleDPizetta">Nicole Dalzotto Pizetta</a>
+<p align="center"> Make with ♥ by <a href="https://github.com/NicoleDPizetta">Nicole Dalzotto Pizetta</a>
 
 ---
