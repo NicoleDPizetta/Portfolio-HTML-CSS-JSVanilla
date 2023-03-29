@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "B612", sans-serif;
+}
+
+:root {
+  --white: #f5f5f5;
+  --black: #161524;
+  --dark-purple: #292547;
+  --pale-purple: #786eb7;
+  --purple: #413ea1;
+  --light-purple: #7575ff;
+  --cream: #e8c7bf;
+
+  --h3-titles: 700 2rem "B612", sans-serif;
+  --h3-margin: 4rem;
+  --h3-padding: 3rem;
+
+  --h5-titles: 700 1.2rem "B612", sans-serif;
+  --h5-margin: 1rem;
+}
+
+html,
+body {
+  background-color: var(--cream);
+}
+
+.padding {
+  padding: 0 9.3rem;
+}
+
+/* -------------------------------- BUTTONS BASE -------------------------------- */
+
+.buttonBase {
+  color: var(--white);
+  background: var(--pale-purple);
+  border-radius: 0.75rem;
+  padding: 0.75rem 2.5rem;
+  font: 700 1rem "B612", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.imgButton {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.buttonBase:hover {
+  transition: 0.5s ease-in-out;
+  background-color: var(--light-purple);
+}
+
+/* -------------------------------- NAVBAR -------------------------------- */
+
+nav {
+  font: 700 0.9rem "B612", sans-serif;
+  background-color: var(--light-purple);
+  position: fixed;
+  z-index: 2;
+  border-radius: 0 0 2rem 0;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4.2rem;
+  padding: 0 3rem 0 5rem;
+  text-transform: uppercase;
+}
+
+nav li {
+  margin: 0.7rem 0;
+  list-style-type: none;
+}
+
+nav a {
+  color: var(--white);
+}
+
+nav a:hover {
+  transition: 0.5s ease-in-out;
+  color: var(--purple);
+}
+
+/* -------------------------------- HERO SECTION -------------------------------- */
+main {
+  background: var(--cream)
+    linear-gradient(
+      180deg,
+      rgba(65, 62, 161, 1) 50%,
+      rgba(232, 199, 191, 1) 50%
+    );
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  column-gap: 3rem;
+  grid-template-areas:
+    "texts texts  photo"
+    "texts texts  photo"
+    "apresentation . photo";
+  margin: 6rem 9.4rem 2.2rem;
+}
+
+#texts {
+  grid-area: texts;
+  padding: 8rem 0;
+}
+
+#hello {
+  font: 300 2.3rem "Rowdies", cursive;
+  color: var(--light-purple);
+  width: 16ch;
+  animation: typing 2s steps(22), type 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#hello::after {
+  content: "|";
+  opacity: 1;
+  margin-left: 5px;
+  display: inline-block;
+  animation: blink 1s infinite;
+  color: var(--light-purple);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+#hero h1 {
+  font: 400 4rem "Rowdies", cursive;
+  color: var(--white);
+}
+
+#hero h2 {
+  font: 400 2rem "B612", sans-serif;
+  color: var(--light-purple);
+}
+
+#photo1 {
+  grid-area: photo;
+  width: 31rem;
+  height: auto;
+}
+
+#apresentation {
+  width: 38rem;
+  grid-area: apresentation;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  border-radius: 1.8rem;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  font: 400 1rem "B612", sans-serif;
+  text-align: center;
+}
+
+#apresentation-buttons {
+  display: flex;
+  gap: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* -------------------------------- STACKS SECTION -------------------------------- */
+
+#stacks {
+  width: 90vw;
+  text-align: center;
+  margin-bottom: 8rem;
+  margin-top: 6.8rem;
+}
+
+#stacks h3 {
+  color: var(--light-purple);
+  font: var(--h3-titles);
+  margin: var(--h3-margin);
+  /* margin-bottom: 3rem; */
+}
+
+#stacksDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#stacks h5 {
+  font: var(--h5-titles);
+  color: var(--black);
+  margin: var(--h5-margin);
+}
+
+#stacks img {
+  width: auto;
+  height: 5.5rem;
+}
+
+.logo {
+  padding: 0 0.5rem;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+/* -------------------------------- PROJECTS SECTION -------------------------------- */
+/* Começo do Grid */
+.projectsGrid {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px 50px;
+  grid-template-areas:
+    "project1 project2 project3"
+    "project4 project5 project6";
+}
+
+#project1 {
+  grid-area: project1;
+}
+#project2 {
+  grid-area: project2;
+}
+#project3 {
+  grid-area: project3;
+}
+#project4 {
+  grid-area: project4;
+}
+#project5 {
+  grid-area: project5;
+}
+#project6 {
+  grid-area: project6;
+}
+/* Final do Grid */
+
+#projects {
+  background-color: var(--purple);
+  padding: 3rem 8rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects h3 {
+  text-align: center;
+  color: var(--white);
+  font: var(--h3-titles);
+  margin: var(--h3-margin);
+}
+
+.title-project {
+  font: 700 1.25rem "B612", sans-serif;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.container-project {
+  width: 26rem;
+  position: relative;
+}
+
+.project-img {
+  height: 16rem;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container-project:hover .project-img {
+  opacity: 0.3;
+}
+
+.container-project:hover .project-links {
+  opacity: 1;
+}
+
+.project-links a {
+  color: var(--white);
+  border-radius: 0.75rem;
+  padding: 0.75rem 2.5rem;
+  font: 700 1rem "B612", sans-serif;
+}
+
+#projects .description {
+  width: 26rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  font: 400 0.8rem "B612", sans-serif;
+  color: var(--white);
+}
+
+/* -------------------------------- ABOUT ME SECTION -------------------------------- */
+#aboutMe {
+  background-color: var(--dark-purple);
+  color: var(--white);
+  padding-bottom: 6rem;
+}
+
+#aboutMe h3 {
+  font: var(--h3-titles);
+  text-align: center;
+  padding: var(--h3-padding);
+}
+
+#aboutDiv {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 0.8fr;
+  grid-template-rows: 0.3fr 2fr 0.5fr;
+  grid-template-areas:
+    "photo2 . ."
+    "photo2 about  hobbie"
+    "photo2 buttons .";
+  gap: 2rem;
+}
+
+.container-about {
+  background-color: var(--black);
+  border-radius: 1.8rem;
+  line-height: 1.7rem;
+}
+
+#photo2 {
+  width: 28rem;
+  height: 36rem;
+  grid-area: photo2;
+}
+
+#myBIO {
+  grid-area: about;
+  padding: 3rem 1.5rem;
+}
+
+#hobbies {
+  grid-area: hobbie;
+  list-style-type: circle;
+}
+
+#hobbies h5 {
+  font: var(--h5-titles);
+  margin: var(--h5-margin);
+  text-align: center;
+}
+
+#hobbies ul {
+  margin: 2rem 3rem;
+}
+
+#buttonsAbout {
+  grid-area: buttons;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+/* -------------------------------- FOOOTER -------------------------------- */
+footer {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 3rem;
+  text-align: center;
+}
+
+#socialLogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#socialLogos img {
+  width: 1.7rem;
+}
+
+#footerText {
+  position: relative;
+  height: 1.25rem;
+  height: 20px;
+  overflow: hidden;
+}
+
+.footerText p {
+  position: absolute;
+  margin-left: 41%;
+  margin-top: 0px;
+}
