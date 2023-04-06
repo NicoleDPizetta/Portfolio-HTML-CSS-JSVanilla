@@ -45,7 +45,8 @@ EN: This is the first version, not completly otimized as I want and temporarily 
 
 #### Mobile
 
-trabalho em andamento / work in progress
+trabalho em andamento / work in progress <br>
+
 ![](./assets/projects/screenshot-mobile1.png) ![]()
 
 ## 🌸 Tecnologias | Technologies
