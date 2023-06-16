@@ -7,7 +7,7 @@ EN: My professional presentation personal web page.</p>
 
 ## 🌸 Preview site
 
-- [Preview](https://nicoledpizetta.github.io/Portfolio-NicoleDPizetta)
+- [Preview](https://nicoledpizetta.github.io/Portfolio-HTML-CSS-JSVanilla/)
 
 ## 🌸 Futuras atualizações | Future improvements
 
